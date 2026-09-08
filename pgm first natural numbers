@@ -1,0 +1,6 @@
+n = int(input("Enter the value of N: "))
+
+# Formula for sum of first N natural numbers: (n * (n + 1)) / 2
+total_sum = (n * (n + 1)) // 2
+
+print(f"The sum of first {n} natural numbers is: {total_sum}")
