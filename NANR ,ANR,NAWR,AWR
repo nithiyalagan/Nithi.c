@@ -1,0 +1,27 @@
+# 1. NANR: No Argument, No Return
+def greet_nanr():
+    print("NANR: Hello! This function has no arguments and returns nothing.")
+
+# 2. ANR: Argument, No Return
+def greet_anr(name):
+    print(f"ANR: Hello {name}! This function takes an argument but returns nothing.")
+
+# 3. NAWR: No Argument, With Return
+def get_pi_nawr():
+    return 3.14  # Returns a value without needing inputs
+
+# 4. AWR: Argument, With Return
+def square_awr(num):
+    return num * num  # Takes an input and returns a calculated result
+
+
+# --- Function Demonstrations ---
+greet_nanr()
+
+greet_anr("Alice")
+
+pi_val = get_pi_nawr()
+print(f"NAWR Result: Pi value is {pi_val}")
+
+square_val = square_awr(5)
+print(f"AWR Result: The square of 5 is {square_val}")
